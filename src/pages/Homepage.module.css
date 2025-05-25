@@ -1,0 +1,8 @@
+.homepage {
+  height: calc(100vh);
+  padding: 2rem 2rem;
+  background: url("/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
