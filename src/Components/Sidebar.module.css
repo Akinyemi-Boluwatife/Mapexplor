@@ -1,0 +1,5 @@
+.sidebar {
+  width: 40%;
+  background-color: var(--color-dark--1);
+  padding: 1rem 1rem;
+}

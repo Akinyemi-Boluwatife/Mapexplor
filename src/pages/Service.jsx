@@ -1,13 +1,13 @@
-import styles from "./Fee.module.css";
-import PageNav from "../Components/PageNav";
-function Fee() {
+import styles from "./Service.module.css";
+import PageNav from "../Components/PageNav.jsx";
+function Service() {
   return (
-    <main className={styles.fee}>
+    <main className={styles.service}>
       <PageNav />
 
       <section>
         <div className={styles.imgcont}>
-          <img src="fee.jpg" />
+          <img src="srv.jpg" />
         </div>
         <div className={styles.details}>
           <h1>About Mapexplor</h1>
@@ -27,4 +27,4 @@ function Fee() {
   );
 }
 
-export default Fee;
+export default Service;

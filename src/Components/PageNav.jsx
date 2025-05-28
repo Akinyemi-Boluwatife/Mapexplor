@@ -12,7 +12,7 @@ function Nav() {
           <NavLink to="/fee"> Fee </NavLink>
         </li>
         <li>
-          <NavLink to="/about">Service</NavLink>
+          <NavLink to="/service">Service</NavLink>
         </li>
         <li>
           <NavLink to="/login" className={styles.ctaLink}>

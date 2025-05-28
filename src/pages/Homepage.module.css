@@ -6,3 +6,22 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.homepage section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  /* border: 2px solid green; */
+  padding: 9rem;
+}
+.homepage h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+.homepage h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  /* line-height: 1.2; */
+}

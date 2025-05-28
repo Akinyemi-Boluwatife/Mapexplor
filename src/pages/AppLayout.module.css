@@ -1,0 +1,6 @@
+.applayout {
+  /* background-color: var(--color-dark--2); */
+  height: 100vh;
+  /* width: 100vw; */
+  display: flex;
+}
