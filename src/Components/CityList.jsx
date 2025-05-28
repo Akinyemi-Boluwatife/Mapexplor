@@ -50,6 +50,7 @@ function CityList() {
       id: 98443199,
     },
   ];
+  const unUsed = "who knows";
   return <div className={styles.citylist}>city list</div>;
 }
 
