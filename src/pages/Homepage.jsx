@@ -1,6 +1,8 @@
 import styles from "./Homepage.module.css";
 import PageNav from "../Components/PageNav";
 import { Link } from "react-router-dom";
+import { useCities } from "../Contexts/CitiesContext";
+import Loader from "../Components/Loader";
 
 function Homepage() {
   return (

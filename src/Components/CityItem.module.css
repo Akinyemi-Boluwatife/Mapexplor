@@ -1,0 +1,29 @@
+.cityitem {
+  all: unset;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  width: 30rem;
+  padding: 0.2rem;
+  margin: auto;
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  background-color: #669bbc;
+  text-align: center;
+  font-size: 22px;
+}
+.cityitem button {
+  all: unset;
+  padding: 0.3rem;
+  background-color: transparent;
+  /* border: 2px solid var(--color-dark--1); */
+  border-radius: 50px;
+}
+.cityitem button:hover {
+  background-color: var(--color-dark--1);
+  color: var(--color-light--2);
+}

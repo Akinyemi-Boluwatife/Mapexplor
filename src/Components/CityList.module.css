@@ -1,7 +1,14 @@
 .citylist {
-  background-color: aquamarine;
   display: flex;
-  height: 30rem;
+  gap: 1rem;
+  flex-direction: column;
+  /* border: 5px solid green; */
+  margin-top: 5rem;
+  height: 25rem;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
+  overflow-y: auto;
+}
+.citylist li {
+  list-style: none;
 }

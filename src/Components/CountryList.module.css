@@ -1,0 +1,11 @@
+.countrylist {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2rem;
+  gap: 1rem;
+  /* border: 3px solid green; */
+}
+.countrylist ul li {
+  list-style: none;
+}
