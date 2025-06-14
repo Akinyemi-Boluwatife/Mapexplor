@@ -95,6 +95,30 @@
         "lng": "0.7173589076993415"
       },
       "id": 98443202
+    },
+    {
+      "cityName": "Barrow",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-06-14T02:45:46.139Z",
+      "notes": "good",
+      "position": {
+        "lat": "52.58350549366267",
+        "lng": "-2.4906182647735835"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "An Muileann gCearr",
+      "country": "Ireland",
+      "emoji": "🇮🇪",
+      "date": "2025-06-14T02:46:07.423Z",
+      "notes": "",
+      "position": {
+        "lat": "53.547177275612576",
+        "lng": "-7.0932240076956194"
+      },
+      "id": 98443204
     }
   ]
 }
