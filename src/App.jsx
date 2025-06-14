@@ -10,6 +10,7 @@ import PageNotFound from "./pages/PageNotFound";
 import { Navigate } from "react-router-dom";
 import { CitiesProvider } from "./Contexts/CitiesContext";
 import City from "./Components/City";
+import Form from "./Components/Form";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="cities" element={<CityList />} />
             <Route path="cities/:id" element={<City />} />
             <Route path="countries" element={<CountryList />} />
+            <Route path="form" element={<Form />} />
           </Route>
           <Route path="*" element={<PageNotFound />} />
         </Routes>

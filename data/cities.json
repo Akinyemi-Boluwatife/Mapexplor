@@ -1,6 +1,18 @@
 {
   "cities": [
     {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -13,28 +25,76 @@
       "id": 17806751
     },
     {
-      "cityName": "Villalgordo del Marquesado",
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Talayuela",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2025-03-25T23:39:57.135Z",
-      "notes": "mannn",
+      "date": "2025-06-14T01:39:29.991Z",
+      "notes": "love itttttt",
       "position": {
-        "lat": "39.6733703917656",
-        "lng": "-2.5048828125000004"
+        "lat": "40.061598511708844",
+        "lng": "-5.460205078125001"
       },
       "id": 98443198
     },
     {
-      "cityName": "Castelo Branco",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2025-04-05T17:28:39.720Z",
-      "notes": "good",
+      "cityName": "Carboneros",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-06-14T01:39:49.640Z",
+      "notes": "nice",
       "position": {
-        "lat": "39.87601941962116",
-        "lng": "-7.536621093750001"
+        "lat": "38.17041826011184",
+        "lng": "-3.5881233397769767"
       },
       "id": 98443199
+    },
+    {
+      "cityName": "Ascheberg",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2025-06-14T01:40:47.296Z",
+      "notes": "love boyyy",
+      "position": {
+        "lat": "51.8053942366042",
+        "lng": "7.622513045848819"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Ipokia",
+      "country": "Nigeria",
+      "emoji": "🇳🇬",
+      "date": "2025-06-14T01:43:10.823Z",
+      "notes": "",
+      "position": {
+        "lat": "6.644882641084736",
+        "lng": "2.7600177988002494"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Ingham",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-06-14T01:47:44.500Z",
+      "notes": "work joor",
+      "position": {
+        "lat": "52.296122337658005",
+        "lng": "0.7173589076993415"
+      },
+      "id": 98443202
     }
   ]
 }
