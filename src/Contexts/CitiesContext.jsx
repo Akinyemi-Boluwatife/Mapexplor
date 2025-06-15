@@ -1,11 +1,4 @@
-import {
-  createContext,
-  useState,
-  useEffect,
-  useContext,
-  useReducer,
-} from "react";
-import { type } from "server/reply";
+import { createContext, useEffect, useContext, useReducer } from "react";
 
 const CitiesContext = createContext();
 
@@ -84,6 +77,8 @@ function CitiesProvider({ children }) {
 
   // get details about a city
   async function getCity(id) {
+    if (Number(id) === currentCity.id) return;
+
     try {
       dispatch({ type: "loading" });
       const res = await fetch(`${bASE_URL}/cities/${id}`);

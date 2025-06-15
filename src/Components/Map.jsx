@@ -6,7 +6,6 @@ import {
   Marker,
   Popup,
   useMap,
-  useMapEvent,
   useMapEvents,
 } from "react-leaflet";
 import { useEffect, useState } from "react";
@@ -15,6 +14,8 @@ import { useGetTheUrlPosition } from "../hooks/useGetTheUrlPosition";
 import { useGeolocation } from "../hooks/useGeolocation";
 import Button from "./Button";
 import { useNavigate } from "react-router-dom";
+import User from "./User";
+
 // import { useGeolocation } from "../hooks/useGeolocation";
 
 function Map() {
@@ -25,7 +26,7 @@ function Map() {
   const {
     getPosition,
     position: myCurPos,
-    isLoading: isLoadingPosition,
+    // isLoading: isLoadingPosition,
   } = useGeolocation();
 
   useEffect(
@@ -72,6 +73,7 @@ function Map() {
         ))}
         <ChangeCenter position={mapPosition} />
         <DetectClick />
+        <User />
       </MapContainer>
     </div>
   );

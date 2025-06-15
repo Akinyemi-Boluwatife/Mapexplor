@@ -119,6 +119,54 @@
         "lng": "-7.0932240076956194"
       },
       "id": 98443204
+    },
+    {
+      "cityName": "Kurumkan",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2025-06-14T02:48:32.409Z",
+      "notes": "",
+      "position": {
+        "lat": "55.013281949307135",
+        "lng": "111.24877504350265"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Swadlincote",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-06-15T13:00:27.493Z",
+      "notes": "nice",
+      "position": {
+        "lat": "52.83683060354964",
+        "lng": "-1.423129438276647"
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "Sunningwell",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-06-15T13:01:46.918Z",
+      "notes": "good",
+      "position": {
+        "lat": "51.70132507178511",
+        "lng": "-1.2911235513802313"
+      },
+      "id": 98443207
+    },
+    {
+      "cityName": "Meresti",
+      "country": "Romania",
+      "emoji": "🇷🇴",
+      "date": "2025-06-15T13:01:59.909Z",
+      "notes": "good",
+      "position": {
+        "lat": "46.27165396062038",
+        "lng": "25.627518786542026"
+      },
+      "id": 98443208
     }
   ]
 }

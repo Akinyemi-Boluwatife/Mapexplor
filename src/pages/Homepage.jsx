@@ -1,8 +1,6 @@
 import styles from "./Homepage.module.css";
 import PageNav from "../Components/PageNav";
 import { Link } from "react-router-dom";
-import { useCities } from "../Contexts/CitiesContext";
-import Loader from "../Components/Loader";
 
 function Homepage() {
   return (
@@ -20,8 +18,8 @@ function Homepage() {
           move. Never lose a memory, and let your friends follow your journey.
         </h3>
 
-        <Link to="/app" className="cta">
-          Capture your travels
+        <Link to="/login" className="cta">
+          Record now
         </Link>
       </section>
     </main>
