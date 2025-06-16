@@ -25,7 +25,7 @@ Track and mark places you've visited using an interactive map powered by React a
 
 ## ⚙️ Getting Started
 
-### Prerequisites
+### Prerequisites:
 
 - Node.js and npm installed
 
