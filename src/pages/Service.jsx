@@ -7,7 +7,7 @@ function Service() {
 
       <section>
         <div className={styles.imgcont}>
-          <img src="srv.jpg" />
+          <img src="srv.jpg" alt="idk" />
         </div>
         <div className={styles.details}>
           <h1>About Mapexplor</h1>

@@ -1,4 +1,10 @@
-import { createContext, useEffect, useContext, useReducer } from "react";
+import {
+  createContext,
+  useEffect,
+  useContext,
+  useReducer,
+  useCallback,
+} from "react";
 
 const CitiesContext = createContext();
 
@@ -64,7 +70,7 @@ function CitiesProvider({ children }) {
         const res = await fetch(`${bASE_URL}/cities`);
         const data = await res.json();
         dispatch({ type: "cities/loaded", payload: data });
-        console.log(data);
+        // console.log(data);
       } catch (err) {
         dispatch({
           type: "failure",
@@ -76,21 +82,24 @@ function CitiesProvider({ children }) {
   }, []);
 
   // get details about a city
-  async function getCity(id) {
-    if (Number(id) === currentCity.id) return;
+  const getCity = useCallback(
+    async function getCity(id) {
+      if (Number(id) === currentCity.id) return;
 
-    try {
-      dispatch({ type: "loading" });
-      const res = await fetch(`${bASE_URL}/cities/${id}`);
-      const data = await res.json();
-      dispatch({ type: "city/loaded", payload: data });
-    } catch {
-      dispatch({
-        type: "city/loaded",
-        payload: "There was a big problem while frtching the city data",
-      });
-    }
-  }
+      try {
+        dispatch({ type: "loading" });
+        const res = await fetch(`${bASE_URL}/cities/${id}`);
+        const data = await res.json();
+        dispatch({ type: "city/loaded", payload: data });
+      } catch {
+        dispatch({
+          type: "city/loaded",
+          payload: "There was a big problem while frtching the city data",
+        });
+      }
+    },
+    [currentCity.id]
+  );
 
   // DELETE CITY
   async function deleteCity(id) {
