@@ -39,7 +39,7 @@ npm install
 
 ### Running the app
 
-1. Start the backend server: npm run server
+1. Start the backend server locally: npm run server
 2. In a new terminal tab or window, start the frontend: npm run dev
 
 ### 📌 Project Details
